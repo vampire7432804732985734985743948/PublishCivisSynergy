@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="Content type" content="text/html;charset=UTF-8">
+ <title>CyberForge</title>
+ <link href="volunteer.css" rel="stylesheet" type="text/css"/>
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+ <link rel = "icon" href = "D:\page\resources\ICON\white.png"/>
+ <script type="text/javascript" src="volunteer.js"></script>
+ </head>
+<body style="background: url('background/photos/Default_night_robotic_city_0.jpg'); margin:0px;">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anta&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+        
+        <header id = "headerFlexBox" class="headerContainer">
+            <div id="LeftBlock">
+                <a href="#" class="headerText" id="pointer">Models</a>
+                <a href="#" class="headerText" id="pointer">Brand</a>
+                <a href="#" class="headerText" id="pointer">Ownership</a>
+                <a href="#" class="headerText" id="pointer">Corse</a>
+                <a href="../main page/main_page.html" class="animatedButton" id="block" style="transform: skew(0deg);">GO BACK</a>
+            </div>
+            <div id="inlineLogo">
+                <h1 id = "projectTitle" class="headerText">CYBER</h1>
+                <img src = "D:page\resources\ICON\white1.png" id = "MainIcon">
+                <h1 id="forge" class="headerText" style=" text-decoration: line-through">FORGE</h1>
+                
+            </div>
+            <div id="RightBlock">
+                <a href=".footerImage" class="animatedButton" id="block">OUR PRODUCTS  &#9658;</a>
+                <a href="#" class="headerText">Contact us</a>
+                <a href="#" class="headerText">About us</a>
+                <a href="#" class="headerText">About us</a>
+            </div>
+        </header>
+
+        <canvas id="mainCanvas" style="display: block;"></canvas>
+        
+        <article id="questionnaire">
+            <h1 class="heading">PERSONAL INFORMATION</h1>
+            <div id="flexRow">
+                <div style="flex-grow: 0.3;"> 
+                    <p>First name</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+                <div style="flex-grow: 0.3;">
+                    <p>Last name</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                      </label>
+                </div>
+                <div style="flex-grow: 0.1;">
+                    <p>Date of birth</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="" type="date" id="birthday" name="birthday" placeholder="YY/MM/DD">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                      </label>
+                </div>
+            </div>
+            <div id="flexRow">
+                <div style="flex-grow: 0.3;"> 
+                    <p>Nationality</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+                <div style="flex-grow: 0.3;"> 
+                    <p>Phone number</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+                
+            </div>
+            <div id="flexRow">
+                <div style="flex-grow: 0.3;"> 
+                    <p>Country</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+                <div style="flex-grow: 0.1;"> 
+                    <p>Weight</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+                <div style="flex-grow: 0.1;"> 
+                    <p>Height</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+            </div>
+            <h1 class="heading">LOCATION</h1>
+            <div id="flexRow">
+                <div style="flex-grow: 0.3;"> 
+                    <p>Region/City</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+                <div style="flex-grow: 0.3;"> 
+                    <p>State/province</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+            </div>
+            <div id="flexRow">
+                <div style="flex-grow: 0.3;"> 
+                    <p>Home arrdess 1</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+                <div style="flex-grow: 0.3;"> 
+                    <p>Home arrdess 2</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="">
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+                <div style="flex-grow: 0.3;"> 
+                    <p>Postal code</p>
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+            </div>
+            <h1 class="heading">Email address</h1>
+            <div id="flexRow">
+                <div style="flex-grow: 0.7;"> 
+                    <label class="search-label">
+                        <input type="text" name="text" class="input" required="" placeholder="AddressSample@gmail.com"/>
+                        <kbd class="slash-icon">/</kbd>
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path d="M15.601 27.622l10.554 10.554c.391.391 1.023.391 1.414 0l24.198-24.198" fill="none" stroke="#00FF00" stroke-width="8" data-original="#000000" class=""></path>
+                            </g>
+                        </svg>
+                        
+                      </label>
+                </div>
+            </div>
+        </article>
+        <div id="termsOfUsage">
+            <input type="checkbox">
+            <p>I aggree with the fact that my personal data will be stored in databases. which are a property of the CYBER FORGE, SpaceX and OpenAI-</p>
+        </div>
+        <a href=".footerImage" id="submit">Create agreement</a>
+
+        <footer style="width: 100%; margin-bottom: 0%;"> 
+            <div id="inlineLogo">
+                <p id="projectTitle">CYBER</p>
+                <img src = "D:page\resources\ICON\white1.png" id = "MainIcon">
+                <p id="projectTitle">FORGE</p>
+            </div>
+            <p>Copyright © 1959-2024 Cyber Forge Limited. </p>
+            <p style="display: flex; flex-direction: row; gap:0.3em;">Our product was made in collaboration with the <a href="https://www.spacex.com" style="color:#BA4140;" id="pointer">SpaceX </a> and <a href="https://openai.com" style="color:#BA4140;" id="pointer"> OpenAI</a> </p>
+            <p>Cyber forge® is a registered trademark, and Cyber forge® ENTERTAINMENT and their respective logo are trademarks of Cyber forge® . All other trademarks are property of their respective owners.</p>
+            <p>OUR SOCIALS</p>
+            <div id="socials">
+                <a href="https://www.cgtrader.com/designers/okayannoyachertila" target="_blank"><img src="background/icons/download.png" class="footerImage" alt=""></a>
+                <a href="https://www.instagram.com/nagirny_roman/" target="_blank"><img src="background/icons/instagram.png" class="footerImage"alt=""></a>
+                <a href="https://sketchfab.com/nagi2427" target="_blank"><img src="background/icons/linkedIn.png" class="footerImage"alt=""></a>
+                <a href="https://twitter.com/?lang=uk" target="_blank"><img src="background/icons/X.png" class="footerImage"alt=""></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="background/icons/youtube.png" class="footerImage"alt=""></a>
+            </div>
+            <div id="policy">
+                <a href="" class="headerText">Privacy Policy</a>
+                <a href="" class="headerText">Cookie Policy</a>
+            </div>
+        </footer>
+</body>
+</html>
